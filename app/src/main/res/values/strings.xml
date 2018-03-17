@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ThereAndBack</string>
+    <string name="android">Android</string>
+    <string name="calculate">Calculate</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="month_of_birth">Month of birth</string>
+    <string name="season">Season</string>
+    <string name="details">Details</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+</resources>

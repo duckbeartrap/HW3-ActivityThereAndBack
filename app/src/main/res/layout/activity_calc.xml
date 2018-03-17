@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.william.thereandback.CalcAct">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btSubmit"
+        android:text="@string/submit"
+        android:layout_margin="@dimen/Margin"
+        android:onClick="onClickSubmit"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btCancel"
+        android:text="@string/cancel"
+        android:layout_margin="@dimen/Margin"
+        app:layout_constraintTop_toBottomOf="@id/btSubmit"
+        android:onClick="onClickCancel"
+        />
+</android.support.constraint.ConstraintLayout>
